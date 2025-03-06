@@ -41,8 +41,8 @@ This approach ensures a time complexity of O(n log n).
 - We found a fundamental flaw with the algorithm operating on the diagonals of the matrix which prevented us from restricting the search space effectively. 
   Therefore, we did not pursue this approach any further.
 - Benchmarks show that our experimental approach is the fastest of the three algorithms, which is kind of surprising, 
-  given that it has a worse time complexity than linear time, at least for our (small) n of 5'000.
-- Binary Search also performs better than the linear time algorithm, at least for our (small) n of 5'000.
+  given that it has a worse time complexity than linear time, at least for our (small) n of 10'000.
+- Binary Search also performs better than the linear time algorithm, at least for our (small) n of 10'000.
 - Theoretical time complexity calculations are useful, but measuring in the real world can yield surprising results.
 - We implemented all the algorithms on two slightly different data structures.
   The first one uses a 1d array (slice) to store matrix elements, the second one uses a 2d array (slice) to do so.
